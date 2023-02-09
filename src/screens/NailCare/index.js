@@ -1,11 +1,40 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { View, Text, ScrollView, TouchableOpacity } from "react-native";
+import { styles } from "./styles";
 
 const NailCare = (props) => {
   return (
-    <View style={{ flex: 1 }}>
-      <Text>NailCare sayfası</Text>
-    </View>
+    <ScrollView>
+      <View style={styles.container}>
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>Cilt Temizleme Önerisi</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>Cilt Temizleme Önerisi</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>Cilt Temizleme Önerisi</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>Cilt Temizleme Önerisi</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>Cilt Temizleme Önerisi</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>Cilt Temizleme Önerisi</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={styles.button}>
+          <Text style={styles.buttonText}>Cilt Temizleme Önerisi</Text>
+        </TouchableOpacity>
+      </View>
+    </ScrollView>
   );
 };
 
